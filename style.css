@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 70px 50px;
+}
+/* =================== */
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: hsl(233, 47%, 7%);
+  color: hsl(0, 0%, 100%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  max-width: 900px;
+  background-color: hsl(244, 38%, 16%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 5px;
+  margin: 50px;
+}
+.card-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.card-heading h1 {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.card-heading span {
+  color: hsl(277, 64%, 61%);
+}
+.card-heading p {
+  font-size: 0.75rem;
+  line-height: 1.7;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-right: 30px;
+}
+.card-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin-top: 25px;
+}
+.card-stats-details p:first-child {
+  font-family: 'Inter';
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.card-stats-details p:last-child {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+/* =================== */
+.card-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      hsla(277, 100%, 23%, 0.6),
+      hsla(277, 100%, 23%, 0.6)
+    ),
+    url(/images/image-header-desktop.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* ===================== */
+
+@media (max-width: 700px) {
+  .container {
+    padding: 30px 35px;
+  }
+  .card {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 0;
+  }
+  .card-heading h1 {
+    font-size: 1.2rem;
+    line-height: 1.1;
+    margin-bottom: 15px;
+  }
+  .card-heading p {
+    font-size: 0.68rem;
+    margin: 0;
+  }
+  .card-stats {
+    grid-template-columns: 1fr;
+    margin-top: 0;
+    gap: 20px;
+  }
+  .card-stats-details p:last-child {
+    font-size: 0.5rem;
+    letter-spacing: 0;
+    margin-top: 3px;
+  }
+  .card-img-box {
+    height: 10rem;
+    grid-row: 1;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 0;
+  }
+}
+/* =================== */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
