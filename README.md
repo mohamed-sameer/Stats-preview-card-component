@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [tats preview card component](https://www.frontendmentor.io/solutions/stats-preview-card-componenet-678jiRyNbC)
 - Live Site URL: [stats preview card component](https://stats-preview-card-mohamed.netlify.app/)
 
 ## My process
