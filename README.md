@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [stats preview card component](https://stats-preview-card-mohamed.netlify.app/)
 
 ## My process
 
@@ -65,8 +65,6 @@ I'll try to use css grid more often in the next challenges
 
 - LinkedIn - [Mohamed Samir](https://www.linkedin.com/in/mohamad-samir08/)
 - Frontend Mentor - [@mohamed-sameer](https://www.frontendmentor.io/profile/mohamed-sameer)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
